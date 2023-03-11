@@ -10,7 +10,6 @@ function Row({ title, path, isLarge }) {
 
 	const [trailerUrl, setTrailerUrl] = useState("");
 	const handleOnClick = (movie) => {
-		//pegar url do trailer
 		if (trailerUrl) {
 			setTrailerUrl("");
 		} else {
